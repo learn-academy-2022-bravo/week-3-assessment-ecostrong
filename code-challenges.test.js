@@ -10,7 +10,6 @@
 // Run the file with the following command: $ yarn jest
 
 // --------------------1) Create a function that takes in a number (greater than 2) and returns an array that length containing the numbers of the Fibonacci sequence.
-
 // a) Create a test with expect statements for each of the variables provided.
 //This is a test for a function that takes in a number (greater than 2) and returns an array that length containing the numbers of the Fibonacci sequence
 // describe a method that list the name of the function or the naming of the particular test
