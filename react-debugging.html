@@ -63,11 +63,14 @@
           // No need to change anything ABOVE this line ^
 
           return(
-            <h1>Draw a Card</h1>
-            <button onClick={}>
-              Click to Draw a Card
+            <div>
+            <h1>Draw a Card!</h1>
+            <div>
+            <button className='button' onClick={this.drawCard}>
+              Click to Draw a Card!
             </button>
-            <button onClick={shuffle}>
+             </div>
+            <button className='button'  onClick={this.shuffle}>
               Return Cards and Shuffle Deck
             </button>
             <div style={handStyles}>
@@ -80,8 +83,9 @@
               })}
             </div>
           )
-        }
-      }
+          </div>
+        )}
+      }    
 
       // No need to change anything below this line
       const domContainer = document.querySelector('#react-container')
@@ -89,3 +93,4 @@
     </script>
   </body>
 </html>
+}
